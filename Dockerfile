@@ -21,10 +21,9 @@ COPY ./postcss.config.js ./
 COPY ./tailwind.config.js ./
 COPY ./eleventy.config.js ./
 
+COPY data ./data
 COPY src ./src
 
 RUN ./build.sh
 
-# CMD ["which", "bun"]
-# CMD ["ls", "-la"]
 CMD ["./server"]
