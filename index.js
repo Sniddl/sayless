@@ -15,7 +15,7 @@ const tryFiles = async (url, base, files) => {
 };
 
 const withDb = async (callback) => {
-  const db = new Database("db.sqlite", { create: true, strict: true });
+  const db = new Database("/data/db.sqlite", { create: true, strict: true });
   try {
     return await callback(db);
   } finally {

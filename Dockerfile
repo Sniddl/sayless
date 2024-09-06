@@ -2,6 +2,8 @@ FROM oven/bun
 
 WORKDIR /usr/src/app
 
+VOLUME [ "/data" ]
+
 COPY build.sh ./
 
 # # Dependency layer
