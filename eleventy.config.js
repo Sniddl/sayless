@@ -3,6 +3,7 @@ const path = require("path");
 const markdownit = require("markdown-it");
 const anchor = require("markdown-it-anchor");
 const tocPlugin = require("eleventy-plugin-toc");
+const { shuffle, filter } = require("lodash");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.setLibrary(
@@ -41,6 +42,32 @@ module.exports = function (eleventyConfig) {
 
     return `${year}-${month}-${day}`;
   });
+
+  eleventyConfig.addFilter("toUrl", (obj) => {
+    const [_, locale, subdomain, ...rest] = obj.url.split("/");
+    const url = `https://${subdomain}.${process.env.APP_DOMAIN}/${locale}/${rest.join("/")}`;
+    return url;
+  });
+
+  eleventyConfig.addFilter("shuffle", (arr) => {
+    if (arr) {
+      return shuffle(arr);
+    }
+  });
+
+  eleventyConfig.addFilter("alphabetic", (arr) => {
+    if (arr) {
+      return arr.sort((a, b) => {
+        return a.data.title.localeCompare(b.data.title);
+      });
+    }
+  });
+
+  // eleventyConfig.addFilter("take", (arr, amount) => {
+  //   if (arr) {
+  //     return arr.slice(0, amount);
+  //   }
+  // });
 
   return {
     dir: {

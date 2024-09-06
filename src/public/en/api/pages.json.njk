@@ -1,0 +1,14 @@
+---
+layout: null
+permalink: /{{locale}}/api/pages.json
+eleventyExcludeFromCollections: true
+---
+[
+{%- for page in collections[locale] %}
+    {
+        "title": "{{ page.data.title | safe }}",
+        "url": "{{ page | toUrl }}"
+    },
+{%- endfor %}
+    null
+]

@@ -1,51 +1,208 @@
-
-<!doctype html>
-<html lang="en" class="bg-indigo-300">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Blog</title>
-        <link rel="stylesheet" href="/app.min.css" />
-    </head>
-    <body>
-        <main class="max-w-[70ch] w-full mx-auto space-y-12">
-            <h1 class="title">Blog</h1>
-            
-            <hr />
-            <article><?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	
 	<url>
 		<loc>/404.html</loc>
-		<lastmod>2024-09-03</lastmod>
-	</url>
-	
-	<url>
-		<loc>/en/snowboarding/</loc>
-		<lastmod>2024-09-03</lastmod>
-	</url>
-	
-	<url>
-		<loc>/en/snowboarding/shop/</loc>
-		<lastmod>2024-09-03</lastmod>
-	</url>
-	
-	<url>
-		<loc>/en/www/</loc>
-		<lastmod>2024-09-03</lastmod>
+		<lastmod>2024-09-06</lastmod>
 	</url>
 	
 	<url>
 		<loc>/fr/snowboarding/</loc>
-		<lastmod>2024-09-03</lastmod>
+		<lastmod>2024-09-06</lastmod>
 	</url>
 	
 	<url>
 		<loc>/fr/www/</loc>
-		<lastmod>2024-09-03</lastmod>
+		<lastmod>2024-09-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/zodiac/</loc>
+		<lastmod>2024-09-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/chinese-new-year/</loc>
+		<lastmod>2024-09-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/cooking/</loc>
+		<lastmod>2024-09-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/exercise/</loc>
+		<lastmod>2024-09-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/photography/</loc>
+		<lastmod>2024-09-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/music/</loc>
+		<lastmod>2024-09-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/gardening/</loc>
+		<lastmod>2024-09-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/writing/</loc>
+		<lastmod>2024-09-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/astrology/</loc>
+		<lastmod>2024-09-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/chess/</loc>
+		<lastmod>2024-09-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/drawing/</loc>
+		<lastmod>2024-09-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/reading/</loc>
+		<lastmod>2024-09-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/youtube/</loc>
+		<lastmod>2024-09-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/gaming/</loc>
+		<lastmod>2024-09-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/journaling/</loc>
+		<lastmod>2024-09-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/fishing/</loc>
+		<lastmod>2024-09-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/welding/</loc>
+		<lastmod>2024-09-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/philosophy/</loc>
+		<lastmod>2024-09-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/mcu/</loc>
+		<lastmod>2024-09-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/cryogenics/</loc>
+		<lastmod>2024-09-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/magnetic-refregeration/</loc>
+		<lastmod>2024-09-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/superconductivity/</loc>
+		<lastmod>2024-09-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/quantum-mechanics/</loc>
+		<lastmod>2024-09-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/thermodynamics/</loc>
+		<lastmod>2024-09-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/cryopreservation/</loc>
+		<lastmod>2024-09-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/space-exploration/</loc>
+		<lastmod>2024-09-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/physics/</loc>
+		<lastmod>2024-09-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/math/</loc>
+		<lastmod>2024-09-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/algebra/</loc>
+		<lastmod>2024-09-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/calculus/</loc>
+		<lastmod>2024-09-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/geometry/</loc>
+		<lastmod>2024-09-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/statistics/</loc>
+		<lastmod>2024-09-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/antialiasing/</loc>
+		<lastmod>2024-09-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/mythology/</loc>
+		<lastmod>2024-09-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/pokemon/</loc>
+		<lastmod>2024-09-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/dcu/</loc>
+		<lastmod>2024-09-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/watchmen/</loc>
+		<lastmod>2024-09-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>/en/cryogenic-engineering/</loc>
+		<lastmod>2024-09-06</lastmod>
 	</url>
 </urlset>
-</article>
-        </main>
-    </body>
-</html>

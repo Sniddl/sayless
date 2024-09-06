@@ -17,6 +17,28 @@ background: bg-indigo-300
             {{ content | toc }}
             <hr />
             <article>{{ content }}</article>
+
+            {% if suggestions %}
+            <hr />
+            <article>
+                <h2>Other Topics</h2>
+                {%- assign suggestions = collections[locale] | shuffle -%}
+                <ul>
+                    {% for page in suggestions limit:10 %}{% if
+                    page.data.suggest %}
+                    <li>
+                        <a href="{{ page | toUrl}}">{{page.data.title}}</a>
+                    </li>
+                    {% endif %}{%- endfor %}
+                </ul>
+            </article>
+            {% endif %}
+            <hr />
+            <article>
+                <a href="https://forms.gle/3HEFrjs2jeXR6ERC9"
+                    >Suggest more topics</a
+                >
+            </article>
         </main>
     </body>
 </html>
